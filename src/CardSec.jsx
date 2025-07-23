@@ -2,7 +2,7 @@ export default function CardSec() {
   return (
     <div className="CardSec d-flex">
       {/* box1 */}
-      <div className="box box1 col-md-4 col-sm-5">
+      <div className="box box1 col-md-4 col-sm-5 animate__animated animate__fadeInLeft  animate__slow">
         <div className="contant">
           <div className="icon">
             <span>
@@ -19,7 +19,7 @@ export default function CardSec() {
         </div>
       </div>
       {/* box2 */}
-      <div className="box box2 col-md-4 col-sm-5">
+      <div className="box box2 col-md-4 col-sm-5 animate__animated animate__fadeInUp  animate__slow">
         <div className="contant">
           <div className="icon">
             <span>
@@ -36,7 +36,7 @@ export default function CardSec() {
         </div>
       </div>
       {/* box3 */}
-      <div className="box box3 col-md-4 col-sm-5">
+      <div className="box box3 col-md-4 col-sm-5 animate__animated animate__fadeInRight animate__slow">
         <div className="contant">
           <div className="icon">
             <span>
